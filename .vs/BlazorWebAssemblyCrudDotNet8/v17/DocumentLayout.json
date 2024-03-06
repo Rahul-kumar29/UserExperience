@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\BlazorWebAssemblyCrudDotNet8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88B25D92-9DF6-48FE-9015-7C909EBA787B}|BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.Client\\BlazorWebAssemblyCrudDotNet8.Client.csproj|e:\\blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8.client\\pages\\registration.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88B25D92-9DF6-48FE-9015-7C909EBA787B}|BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.Client\\BlazorWebAssemblyCrudDotNet8.Client.csproj|solutionrelative:blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8.client\\pages\\registration.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B25D92-9DF6-48FE-9015-7C909EBA787B}|BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.Client\\BlazorWebAssemblyCrudDotNet8.Client.csproj|e:\\blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8.client\\pages\\userinfo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88B25D92-9DF6-48FE-9015-7C909EBA787B}|BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.Client\\BlazorWebAssemblyCrudDotNet8.Client.csproj|solutionrelative:blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8.client\\pages\\userinfo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE52C445-561E-4A0F-86E6-36E07DB83058}|BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.csproj|e:\\blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8\\controllers\\detailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE52C445-561E-4A0F-86E6-36E07DB83058}|BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.csproj|solutionrelative:blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8\\controllers\\detailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE52C445-561E-4A0F-86E6-36E07DB83058}|BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.csproj|e:\\blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE52C445-561E-4A0F-86E6-36E07DB83058}|BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.csproj|solutionrelative:blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE52C445-561E-4A0F-86E6-36E07DB83058}|BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.csproj|e:\\blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE52C445-561E-4A0F-86E6-36E07DB83058}|BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.csproj|solutionrelative:blazorwebassemblycruddotnet8\\blazorwebassemblycruddotnet8\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Registration.razor",
+              "DocumentMoniker": "E:\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.Client\\Pages\\Registration.razor",
+              "RelativeDocumentMoniker": "BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.Client\\Pages\\Registration.razor",
+              "ToolTip": "E:\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.Client\\Pages\\Registration.razor",
+              "RelativeToolTip": "BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.Client\\Pages\\Registration.razor",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T15:54:00.014Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "E:\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "E:\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T17:23:01.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetailsController.cs",
+              "DocumentMoniker": "E:\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\Controllers\\DetailsController.cs",
+              "RelativeDocumentMoniker": "BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\Controllers\\DetailsController.cs",
+              "ToolTip": "E:\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\Controllers\\DetailsController.cs",
+              "RelativeToolTip": "BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\Controllers\\DetailsController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAACgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:27:48.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserInfo.razor",
+              "DocumentMoniker": "E:\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.Client\\Pages\\UserInfo.razor",
+              "RelativeDocumentMoniker": "BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.Client\\Pages\\UserInfo.razor",
+              "ToolTip": "E:\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.Client\\Pages\\UserInfo.razor",
+              "RelativeToolTip": "BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8.Client\\Pages\\UserInfo.razor",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T08:23:26.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "E:\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\Data\\DataContext.cs",
+              "ToolTip": "E:\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\Data\\DataContext.cs",
+              "RelativeToolTip": "BlazorWebAssemblyCrudDotNet8\\BlazorWebAssemblyCrudDotNet8\\Data\\DataContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T03:16:05.462Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

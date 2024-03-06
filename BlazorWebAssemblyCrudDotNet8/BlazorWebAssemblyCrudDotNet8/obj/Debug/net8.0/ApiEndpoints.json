@@ -1,0 +1,121 @@
+[
+  {
+    "ContainingType": "BlazorWebAssemblyCrudDotNet8.Controllers.DetailsController",
+    "Method": "GetAllDetailsAsync",
+    "RelativePath": "api/Details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BlazorWebAssemblyCrudDotNet8.Shared.Entities.Detail, BlazorWebAssemblyCrudDotNet8.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlazorWebAssemblyCrudDotNet8.Controllers.DetailsController",
+    "Method": "CreateUserAsync",
+    "RelativePath": "api/Details",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newDetail",
+        "Type": "BlazorWebAssemblyCrudDotNet8.Shared.Entities.Detail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlazorWebAssemblyCrudDotNet8.Shared.Entities.Detail",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlazorWebAssemblyCrudDotNet8.Controllers.DetailsController",
+    "Method": "GetUserByIdAsync",
+    "RelativePath": "api/Details/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlazorWebAssemblyCrudDotNet8.Shared.Entities.Detail",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlazorWebAssemblyCrudDotNet8.Controllers.DetailsController",
+    "Method": "DeleteUserAsync",
+    "RelativePath": "api/Details/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorWebAssemblyCrudDotNet8.Controllers.DetailsController",
+    "Method": "UpdateUserAsync",
+    "RelativePath": "api/Details/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UpdatedDetail",
+        "Type": "BlazorWebAssemblyCrudDotNet8.Shared.Entities.Detail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlazorWebAssemblyCrudDotNet8.Shared.Entities.Detail",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

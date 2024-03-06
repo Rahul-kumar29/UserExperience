@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BlazorWebAssemblyCrudDotNet8.props" />
+</Project>

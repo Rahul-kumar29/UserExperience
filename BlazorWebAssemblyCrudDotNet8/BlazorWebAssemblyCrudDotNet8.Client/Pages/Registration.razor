@@ -1,0 +1,62 @@
+﻿@page "/edit-registration"
+@page "/edit-registration/{id:int}"
+@inject HttpClient http 
+@rendermode @(new InteractiveWebAssemblyRenderMode(prerender: false))
+
+@if(id == null)
+{
+    <h3>Registration </h3>
+}
+else
+{
+    <h3>Edit @User.Name</h3>
+}
+
+<EditForm Model="User" OnSubmit="HandleSubmit">
+    <div>
+        <label for="name">Name</label>
+        <InputText id="name" @bind-Value="User.Name" class="form-control"/>
+    </div>
+    <div>
+        <label for="Username">UserName</label>
+        <InputText id="UserName" @bind-Value="User.Username" class="form-control"/>
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <InputText id="Email" @bind-Value="User.Email" class="form-control"/>
+    </div>
+    <div>
+        <label for="Password">Password</label>
+        <InputText id="password" @bind-Value="User.PasswordHash" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int? id { get; set; }
+    public Detail User { get; set; } = new Detail();
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (id is not null) { 
+            var result = await http.GetFromJsonAsync<Detail>($"api/Details/{(int)id}");
+            if (result is not null)
+                User = result;
+        }
+    }
+
+    async Task HandleSubmit()
+    {
+        if (id is not null)
+        {
+            var result = await http.PutAsJsonAsync($"api/details/{id}", User);
+            User = await result.Content.ReadFromJsonAsync<Detail>();
+        }
+        else
+        {
+            var result = await http.PostAsJsonAsync($"api/details", User);
+            User = await result.Content.ReadFromJsonAsync<Detail>();
+        }
+    }
+}

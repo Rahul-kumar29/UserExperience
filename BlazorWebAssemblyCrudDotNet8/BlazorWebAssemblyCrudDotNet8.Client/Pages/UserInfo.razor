@@ -1,0 +1,68 @@
+﻿@page "/UserInfo"
+@inject HttpClient Http;
+@inject NavigationManager NavigationManager
+@rendermode @(new InteractiveWebAssemblyRenderMode(prerender: false))
+
+
+<PageTitle>User Info</PageTitle>
+
+<h1>User Information</h1>
+
+
+@if (Details.Count == 0)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Username</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>PasswordHash</th>
+                <th>Photo</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Detail in Details)
+            {
+                <tr>
+                    <td>@Detail.Id</td>
+                    <td>@Detail.Username</td>
+                    <td>@Detail.Name</td>
+                    <td>@Detail.Email</td>
+                    <td>@Detail.PasswordHash</td>
+                    <td>@Detail.Photo</td>
+                    <td><button class="btn btn-success" @onclick="@(() => EditUser(@Detail.Id))">Edit</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<button class="btn btn-primary" @onclick="AddUser">Add a User</button>
+
+
+@code {
+
+    List<Detail> Details = new List<Detail>();
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        var result = await Http.GetFromJsonAsync<List<Detail>>("api/Details");
+        if (result is not null)
+            Details = result;
+    }
+    void AddUser()
+    {
+        NavigationManager.NavigateTo("edit-registration");
+    }
+    void EditUser(int id)
+    {
+        NavigationManager.NavigateTo($"edit-registration/{id}");
+    }
+}
